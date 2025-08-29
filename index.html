@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>[D]esign Sparks</title>
+</head>
+
+<body>
+
+    <div class="navbar">
+  <a href="index.html">
+    <img src="images/logo.svg" alt="Logo" class="logo2">
+  </a>
+
+
+        <button id="close-btn">
+            <svg class="closex" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"></path>
+                </svg>
+        </button>
+
+        <div class="menuContainer">
+            <nav id="res-nav">
+                <ul class="nav_links-res">
+                    <li><a href="#" id="home">HOME</a></li>
+                    <li><a href="#" id="blog">BLOG</a></li>
+                </ul>
+                            <div class="btn-res">
+                <div class="btn_indicator-res">
+                    <div class="btn_icon-container-res">
+                        <svg id="moon-res" x-show="!toggle" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 3C10.22 3 8.47991 3.52784 6.99987 4.51677C5.51983 5.50571 4.36628 6.91131 3.68509 8.55585C3.0039 10.2004 2.82567 12.01 3.17294 13.7558C3.5202 15.5016 4.37737 17.1053 5.63604 18.364C6.89472 19.6226 8.49836 20.4798 10.2442 20.8271C11.99 21.1743 13.7996 20.9961 15.4442 20.3149C17.0887 19.6337 18.4943 18.4802 19.4832 17.0001C20.4722 15.5201 21 13.78 21 12C21 11.54 20.96 11.08 20.9 10.64C20.4003 11.3407 19.7401 11.9115 18.9746 12.3047C18.2091 12.6978 17.3606 12.902 16.5 12.9C15.3552 12.9 14.24 12.5364 13.3152 11.8617C12.3904 11.1869 11.7038 10.2358 11.3545 9.14561C11.0052 8.05541 11.0112 6.88243 11.3717 5.79586C11.7321 4.70928 12.4284 3.76528 13.36 3.1C12.92 3.04 12.46 3 12 3V3Z" fill="#201D34"></path>
+                            </svg>  
+                            <svg id="sun-res" x-show="toggle" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.76 4.84005L4.96 3.05005L3.55 4.46005L5.34 6.25005L6.76 4.84005ZM4 10.5H1V12.5H4V10.5ZM13 0.550049H11V3.50005H13V0.550049V0.550049ZM20.45 4.46005L19.04 3.05005L17.25 4.84005L18.66 6.25005L20.45 4.46005ZM17.24 18.16L19.03 19.96L20.44 18.55L18.64 16.76L17.24 18.16ZM20 10.5V12.5H23V10.5H20ZM12 5.50005C8.69 5.50005 6 8.19005 6 11.5C6 14.81 8.69 17.5 12 17.5C15.31 17.5 18 14.81 18 11.5C18 8.19005 15.31 5.50005 12 5.50005ZM11 22.4501H13V19.5H11V22.4501ZM3.55 18.5401L4.96 19.9501L6.75 18.15L5.34 16.74L3.55 18.5401Z" fill="#F53373"></path>
+                                </svg> 
+                                              
+                        </div>
+                </div>
+            </div>
+            </nav>
+
+        </div>
+
+
+    </div>
+
+    <div id="overlay">
+
+    </div> 
+
+    <header>
+<div class="headerLogo">
+  <a href="index.html">
+    <img src="images/logo.svg" alt="Logo" class="logo1">
+  </a>
+</div>
+<div class="navbar-content">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#" id="home" class="pinkborder">HOME</a></li>
+                <li><a href="#" id="blog">BLOG</a></li>
+
+            </ul>
+        </nav>
+        <div class="btn">
+            <div class="btn_indicator">
+                <div class="btn_icon-container">
+                    <svg id="moon" idx-show="!toggle" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 3C10.22 3 8.47991 3.52784 6.99987 4.51677C5.51983 5.50571 4.36628 6.91131 3.68509 8.55585C3.0039 10.2004 2.82567 12.01 3.17294 13.7558C3.5202 15.5016 4.37737 17.1053 5.63604 18.364C6.89472 19.6226 8.49836 20.4798 10.2442 20.8271C11.99 21.1743 13.7996 20.9961 15.4442 20.3149C17.0887 19.6337 18.4943 18.4802 19.4832 17.0001C20.4722 15.5201 21 13.78 21 12C21 11.54 20.96 11.08 20.9 10.64C20.4003 11.3407 19.7401 11.9115 18.9746 12.3047C18.2091 12.6978 17.3606 12.902 16.5 12.9C15.3552 12.9 14.24 12.5364 13.3152 11.8617C12.3904 11.1869 11.7038 10.2358 11.3545 9.14561C11.0052 8.05541 11.0112 6.88243 11.3717 5.79586C11.7321 4.70928 12.4284 3.76528 13.36 3.1C12.92 3.04 12.46 3 12 3V3Z" fill="#201D34"></path>
+                        </svg>
+                        <svg id="sun" x-show="toggle" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.76 4.84005L4.96 3.05005L3.55 4.46005L5.34 6.25005L6.76 4.84005ZM4 10.5H1V12.5H4V10.5ZM13 0.550049H11V3.50005H13V0.550049V0.550049ZM20.45 4.46005L19.04 3.05005L17.25 4.84005L18.66 6.25005L20.45 4.46005ZM17.24 18.16L19.03 19.96L20.44 18.55L18.64 16.76L17.24 18.16ZM20 10.5V12.5H23V10.5H20ZM12 5.50005C8.69 5.50005 6 8.19005 6 11.5C6 14.81 8.69 17.5 12 17.5C15.31 17.5 18 14.81 18 11.5C18 8.19005 15.31 5.50005 12 5.50005ZM11 22.4501H13V19.5H11V22.4501ZM3.55 18.5401L4.96 19.9501L6.75 18.15L5.34 16.74L3.55 18.5401Z" fill="#F53373"></path>
+                            </svg>                
+                    </div>
+            </div>
+        </div>
+        <div class="burger-menu">
+            <svg id="burger" viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="10"></rect>
+                <rect y="30" width="100" height="10"></rect>
+                <rect y="60" width="100" height="10"></rect>
+            </svg>
+        </div>
+</div>
+    </header>
+    <hr class="h">
+    <img src="images/banner.svg" alt="" class="img_sec1">
+    <div class="section1">
+        <h1 class="h1_sec1">Unlock the World of Creative Design & Tech</h1>
+        <p class="p_sec1">Explore insights, tools, and inspiration <br>from top designers and tech innovators.</p>
+        <button class="btn_sec1">Discover More</button>
+        <hr class="line2">
+    </div>
+    <div class="section2">
+        <div class="sec2h">
+            <h1 class="h1_sec2">Inspiration corner</h1>
+            <a href="#" class="show_sec2">show all posts</a>
+        </div>
+<div class="gridimg">
+    <div class="grid-item">
+            <img src="images/post1.png" alt="" class="img1sec2">
+        <p class="img1p">Tips for streamlining your creative workflow.</p>
+    </div>
+    <div class="grid-item">
+            <img src="images/post2.png" alt="" class="img2sec2">
+        <p class="img2p">Explore modern design trends shaping 2025.</p>
+    </div>
+    <div class="grid-item">
+            <img src="images/post3.jpg" alt="" class="img3sec2">
+        <p class="img3p">Learn how to balance code and creativity effectively.</p>
+    </div>
+        <div class="grid-item">
+            <img src="images/post4.jpg" alt="" class="img3sec2">
+        <p class="img3p">Designing the Future: How Workspace Tech Shapes Creativity.</p>
+    </div>
+        <div class="grid-item">
+            <img src="images/post5.jpg" alt="" class="img3sec2">
+        <p class="img3p">UI Meets Innovation: Exploring Next-Gen Digital Experiences.</p>
+    </div>
+        <div class="grid-item">
+            <img src="images/post6.jpg" alt="" class="img3sec2">
+        <p class="img3p">Smart & Sustainable: Bridging Design and Technology for Tomorrow.</p>
+    </div>
+</div>
+        <hr class="line3">
+    </div>
+
+    <div class="section3">
+        <h2 class="sec3h">Our Focus</h2>
+        <div class="sec3items">
+            <div class="post-container">
+                <div class="post">
+                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="light-bulb">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                   </svg>
+                </div>
+                <p class="postp">Fresh Ideas</p>
+            </div>
+            <div class="post-container">
+                <div class="post">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="paintbrush">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
+                  </svg>
+                </div>
+                <p class="postp">Design Matters</p>
+            </div>
+            <div class="post-containers">
+                <div class="post">
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="code">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                  </svg>
+                </div>
+                <p class="postp3">Smart Tech</p>
+            </div>
+        </div>
+    </div>
+    <hr class="line4">
+
+    <div class="section4">
+        <h2 class="sec4h">Featured Creatives</h2>
+        <div class="carousel-container">
+            <button id="prev" class="prev-button">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    viewBox="0 0 24 24" class="arrow-svg">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+            </button>
+
+
+            <div class="slides" id="slideContainer">
+                <div id="slideOne" class="">
+                    <img src="images/woman1.jpg" id="slideImg1" class="slide-image">
+                    <h2>Alex Rivera - Product Designer</h2>
+                    <p id="slideText" class="slide-text">"Great design happens when creativity meets empathy."
+                    </p>
+                </div>
+                <div id="slideTwo" class="">
+                    <img src="images/woman2.jpg" id="slideImg1" class="slide-image">
+                    <h2>Maya Chen - Frontend Developer</h2>
+                    <p id="slideText" class="slide-text">"Code is also design - it shapes the way users experience beauty."</p>
+                </div>
+            </div>
+
+            <button id="next" class="next-button">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    viewBox="0 0 24 24" class="arrow-svg">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+        </div>
+        <div class="testimonial-lines">
+            <div class="line left-line clicked"></div>
+            <div class="line right-line"></div>
+        </div>
+    </div>
+
+    <div class="section5">
+        <div class="newsletter-section" id="news">
+            <h1>Join Our Newsletter</h1>
+
+            <p>If you want relevant updates occasionally, sign up for the private newsletter. Your email is never
+                shared.</p>
+
+            <div class="input-group">
+                <input type="email" placeholder="Enter your email..." class="email-input">
+                <button class="signup-button">Sign up</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#">
+                <p>FAQ</p>
+            </a>
+            <a href="#">
+                <p>General Conditions</p>
+            </a>
+            <a href="#">
+                <p>Data protection policy</p>
+            </a>
+            <a href="#">
+                <p>Cookie policy</p>
+            </a>
+            <a href="#">
+                <p>Contact us</p>
+            </a>
+        </div>
+        <div class="footer-text-right">
+            <p>2025 ALL RIGHTS RESERVED</p>
+            <p class="footerlowerp">Developed by Monika Dimitrova</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
