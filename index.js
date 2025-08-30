@@ -12,10 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const newsBorder = document.getElementById("news");
   const line1 = document.querySelector(".h");
   const line2 = document.querySelector(".line2");
-  const mealBorder = document.querySelector(".meal");
   const borderShow = document.querySelector(".show_sec2");
   const closeBtnbg = document.getElementById("close-btn");
-
   const body = document.querySelector("body");
   const btn = document.querySelector(".btn");
 
@@ -55,7 +53,6 @@ document.addEventListener("DOMContentLoaded", function () {
     newsBorder.classList.toggle("darkmode");
     line1.classList.toggle("darkmode");
     line2.classList.toggle("darkmode");
-    mealBorder.classList.toggle("darkmode");
     borderShow.classList.toggle("darkmode");
     closeBtnbg.classList.toggle("darkmode");
 
@@ -74,7 +71,6 @@ document.addEventListener("DOMContentLoaded", function () {
     newsBorder.classList.toggle("darkmode");
     line1.classList.toggle("darkmode");
     line2.classList.toggle("darkmode");
-    mealBorder.classList.toggle("darkmode");
     borderShow.classList.toggle("darkmode");
     closeBtnbg.classList.toggle("darkmode");
 
